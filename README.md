@@ -22,6 +22,7 @@ loonflow_client_web
 * pip install flask_loguru-2.0.0-py3-none-any.whl
 * pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/  (注意，此安装包为win平台,其他请自行处理)
 * 添加 环境变量 LF_CONFIG=xxx\flask_loonflow_client\config\local.yml
+* 数据库配置 在本人 loonflow_custom项目中(先安装此项目)
 * python manage.py runserver -p 6062
 
 ### 其他相关readme内容,请查看 [shutongFlow](https://github.com/youshutong2080/shutongFlow)
