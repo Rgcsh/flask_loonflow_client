@@ -1,0 +1,27 @@
+CORE:
+  DEBUG: false
+  cache_type: redis
+  cache_prefix: 'FL:'
+  secret_key: 'm$*&&u*9+-$g^b9lj0)**1$0$wfh1wk$ye^4p+s)cera)g3fml'
+
+REDIRECT:
+  workflow_backend_url: "http://127.0.0.1:6060"
+  workflow_token: "8cd585da-3cc6-11e8-9946-784f437daad6"
+  workflow_app: "ops"
+
+LOG:
+  path: E:\flask_loonflow_client\log
+  name: server.log
+  rotation: 3600
+  format: '{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message}'
+
+REDIS:
+  host: 127.0.0.1
+  port: 6379
+  db: 1
+
+DB:
+  loonflownew:
+    host: 127.0.0.1:3306
+    user: root
+    pass: ''
